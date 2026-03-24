@@ -166,7 +166,7 @@ function resetGame(){
 function fatalCombo(arr){
   const s = new Set(arr);
   if(s.has('clue') && s.has('lilith') && !s.has('human')) return 'Clue killed Lilith! Never leave them alone.';
-  if(s.has('lilith') && s.has('demure') && !s.has('human')) return 'Lilith and Demure had a fight! Never leave them alone.';
+  if(s.has('lilith') && s.has('demure') && !s.has('human')) return 'Lilith and Demure went for shopping instead! Never leave them alone.';
   return null;
 }
 
